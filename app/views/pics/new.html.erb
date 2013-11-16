@@ -1,0 +1,15 @@
+
+<div class="span 6 boxy">
+<h2>
+	
+	<%= simple_form_for @pic do |f| %>
+	  
+	  <%= f.input :lesson, label: 'Lesson Number' %>
+	  <%= f.input :emotion %>
+	  <%= f.input :learned, label: 'Lesson Learned' %>
+	  
+	  <%= submit_tag 'Save' %>
+	<% end %>
+
+</h2>
+</div>
